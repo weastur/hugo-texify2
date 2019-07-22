@@ -1,0 +1,12 @@
+name = "TeXify"
+license = "MIT"
+licenselink = "https://github.com/queensferryme/hugo-theme-texify/blob/master/LICENSE"
+description = "A minimal, latex-style hugo theme for personal blogging"
+homepage = "https://github.com/queensferryme/hugo-theme-texify/"
+tags = ["blog", "clean", "latex", "light", "minimal", "responsive", "simple"]
+features = ["blog"]
+min_version = "0.60"
+
+[author]
+name = "Queensferry"
+homepage = "https://github.com/queensferryme/"
