@@ -25,3 +25,7 @@ repos:
     rev: v0.34.0
     hooks:
       - id: markdownlint
+  - repo: https://github.com/jorisroovers/gitlint
+    rev: v0.19.1
+    hooks:
+      - id: gitlint
