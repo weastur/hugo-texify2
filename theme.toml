@@ -1,12 +1,12 @@
-name = "TeXify"
+name = "TeXify2"
 license = "MIT"
-licenselink = "https://github.com/queensferryme/hugo-theme-texify/blob/master/LICENSE"
+licenselink = "https://github.com/weastur/hugo-texify2/blob/master/LICENSE"
 description = "A minimal, latex-style hugo theme for personal blogging"
-homepage = "https://github.com/queensferryme/hugo-theme-texify/"
+homepage = "https://github.com/weastur/hugo-texify2/"
 tags = ["blog", "clean", "latex", "light", "minimal", "responsive", "simple"]
 features = ["blog"]
-min_version = "0.60"
+min_version = "0.113"
 
 [author]
-name = "Queensferry"
-homepage = "https://github.com/queensferryme/"
+name = "weastur"
+homepage = "https://github.com/weastur/"
