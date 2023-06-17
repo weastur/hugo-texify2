@@ -26,9 +26,12 @@ Upgrade with:
 git submodule foreach git pull origin master
 ```
 
-See [`config.toml`](https://github.com/queensferryme/hugo-theme-texify/blob/master/config.toml) for an example configuration.
+See [`config.toml`](https://github.com/queensferryme/hugo-theme-texify/blob/master/config.toml)
+for an example configuration.
 
-Note that for Simplified Chinese users, it is recommended to use [Noto Serif SC](https://fonts.google.com/specimen/Noto+Serif+SC) via Google Fonts. You may put the following codes in your `static/css/custom.css`:
+Note that for Simplified Chinese users, it is recommended to use
+[Noto Serif SC](https://fonts.google.com/specimen/Noto+Serif+SC) via Google Fonts.
+You may put the following codes in your `static/css/custom.css`:
 
 ```css
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;700&display=swap');
@@ -48,6 +51,6 @@ make dev
 
 The design of this theme is inspired by the following softwares:
 
-- https://github.com/vincentdoerig/latex-css
-- https://github.com/7ma7X/HugoTeX
-- https://theme.typora.io/theme/Academic/
+- <https://github.com/vincentdoerig/latex-css>
+- <https://github.com/7ma7X/HugoTeX>
+- <https://theme.typora.io/theme/Academic/>

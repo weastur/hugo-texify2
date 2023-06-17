@@ -20,3 +20,7 @@ repos:
       - id: detect-aws-credentials
       - id: destroyed-symlinks
       - id: forbid-submodules
+  - repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.34.0
+    hooks:
+      - id: markdownlint
