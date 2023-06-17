@@ -16,6 +16,7 @@ repos:
       - id: check-toml
       - id: check-vcs-permalinks
       - id: check-xml
+        exclude: layouts/_default/rss.xml
       - id: check-yaml
       - id: detect-aws-credentials
       - id: destroyed-symlinks
