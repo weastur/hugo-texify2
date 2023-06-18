@@ -9,7 +9,12 @@
   <div class="post">
     <h2>
       <a href="{{ .Permalink }}">{{ .Title }}</a>
-      <time>{{ .PublishDate.Format .Site.Params.dateFormat }}</time>
+      <div>
+        {{ if .Site.Params.showWordCount }}
+        <span>{{ .WordCount }} words</span>
+        {{ end }}
+        <time>{{ .PublishDate.Format .Site.Params.dateFormat }}</time>
+      </div>
     </h2>
     {{ if ne .Params.tags nil }}
     <div>
