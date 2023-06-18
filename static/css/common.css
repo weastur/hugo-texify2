@@ -72,6 +72,10 @@
     padding: 0;
 }
 
+html {
+    font-size: 120%;
+}
+
 a {
     color: inherit;
     text-decoration: none;
