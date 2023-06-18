@@ -56,13 +56,9 @@
   <div class="comment">
     <!-- disqus -->
     {{ template "_internal/disqus.html" . }}
-    <!-- giscus -->
-    {{ if .Site.Params.giscus.enable }}
-      {{ .Site.Params.giscus.script | safeHTML }}
-    {{ end }}
-    <!-- utterances -->
-    {{ if .Site.Params.utterances.enable }}
-      {{ .Site.Params.utterances.script | safeHTML }}
+    <!-- generic engine -->
+    {{ if .Site.Params.commentEngine.enable }}
+      {{ .Site.Params.commentEngine.code | safeHTML }}
     {{ end }}
   </div>
   {{ end }}

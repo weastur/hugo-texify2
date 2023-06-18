@@ -74,15 +74,7 @@ enable = false
 limit = 1000
 warning = "⚠️ It has been <i>%d</i> days since the last update, the content of the article may be outdated."
 
-# https://giscus.app
-[params.giscus]
+[params.commentEngine]
 enable = false
-script = """
-"""
-
-# https://utteranc.es
-[params.utterances]
-enable = false # whether to enable utterances
-# paste utterances' <script></script> configuration between the triple quotes
-script = """
+code = """
 """
