@@ -175,3 +175,12 @@ time {
 #footer > .footnote {
     text-align: center;
 }
+
+#sharingbuttons {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}

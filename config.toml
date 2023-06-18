@@ -78,3 +78,14 @@ warning = "⚠️ It has been <i>%d</i> days since the last update, the content 
 enable = false
 code = """
 """
+
+[params.sharingbuttons]
+enable = true
+facebook = true
+twitter = true
+email = true
+linkedin = true
+reddit = true
+whatsapp = true
+hackernews = true
+telegram = true

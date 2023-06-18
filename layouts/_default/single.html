@@ -1,5 +1,6 @@
 {{ define "head" }}
 <link rel="stylesheet" href='{{ "css/single.css" | absURL }}'>
+<link rel="stylesheet" href='{{ "css/sharingbuttons.css" | absURL }}'>
 {{ end }}
 
 {{ define "main" }}
@@ -41,6 +42,7 @@
     {{ .Content }}
     {{ end }}
   </article>
+  {{ partial "sharingbuttons.html" . }}
   <div class="paginator">
     {{ if .PrevInSection }}
     <a class="link" href="{{ .PrevInSection.Permalink }}">← prev</a>
