@@ -13,6 +13,16 @@
         {{ if .Site.Params.showWordCount }}
         <span>{{ .WordCount }} words</span>
         {{ end }}
+
+        {{ if gt .ReadingTime 1 }}
+	        {{ .Scratch.Set "timeUnit" "mins" }}
+        {{ else }}
+	        {{ .Scratch.Set "timeUnit" "min" }}
+        {{ end }}
+        {{ if .Site.Params.showReadingTime }}
+            <span>~{{.ReadingTime}} {{ .Scratch.Get "timeUnit" }}</span>
+        {{ end }}
+
         <time>{{ .PublishDate.Format .Site.Params.dateFormat }}</time>
       </div>
     </h2>
