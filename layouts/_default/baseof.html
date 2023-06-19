@@ -23,9 +23,9 @@
 
   <!-- keywords -->
   {{ if .Keywords }}
-  <meta name="keywords" content="{{ range $key, $value := .Keywords }} {{ $value }} {{ end }}">
+  <meta name="keywords" content="{{ delimit .Keywords " " }}">
   {{ else }}
-  <meta name="keywords" content="{{ range $key, $value := .Site.Params.keywords }} {{ $value }} {{ end }}">
+  <meta name="keywords" content="{{ delimit .Site.Params.keywords " " }}">
   {{ end }}
 
   <!-- math -->
