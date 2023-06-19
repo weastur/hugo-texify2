@@ -1,6 +1,5 @@
 {{ $title := .Title }}
 {{ $url := .Permalink }}
-{{ if .Site.Params.sharingbuttons.enable }}
 <div id="sharingbuttons">
     <!-- Facebook -->
     {{ if .Site.Params.sharingbuttons.facebook }}
@@ -82,4 +81,3 @@
     </a>
     {{ end }}
 </div>
-{{ end }}

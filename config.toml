@@ -79,7 +79,6 @@ code = """
 """
 
 [params.sharingbuttons]
-enable = true
 facebook = true
 twitter = true
 email = true
