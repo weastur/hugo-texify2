@@ -64,6 +64,7 @@ since = "2023"
 toc = false
 showWordCount = true
 showReadingTime = true
+rootFontSize = "120%"
 
 [params.math]
 use = "katex"
