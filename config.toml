@@ -73,6 +73,10 @@ use = "katex"
 code = """
 """
 
+[params.buymeacoffee]
+code = """
+"""
+
 [params.sharingbuttons]
 facebook = true
 twitter = true
