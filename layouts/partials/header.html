@@ -1,3 +1,6 @@
+{{ $parsedUrl := urls.Parse .Site.BaseURL }}
+{{ $domain := $parsedUrl.Host }}
+{{ $domainWithoutWWW := replace $domain "www." "" }}
 <header id="header">
   <h1>
     <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
@@ -10,4 +13,12 @@
     </span>
     {{ end }}
   </nav>
+  {{ if .Site.Params.enableDuckDuckGoSearchBox }}
+  <div id="searchbox">
+    <form method="get" id="search" target="_blank" action="https://duckduckgo.com/">
+      <input type="hidden" name="sites" value="{{ $domainWithoutWWW }}">
+      <input type="text" name="q" placeholder="Search...">
+    </form>
+  </div>
+  {{ end }}
 </header>

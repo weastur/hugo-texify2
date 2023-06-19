@@ -184,3 +184,15 @@ time {
     margin-top: 1rem;
     flex-wrap: wrap;
 }
+
+#searchbox {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+#searchbox > #search > input {
+    font-size: 1.2rem;
+}

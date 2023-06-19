@@ -65,6 +65,7 @@ showWordCount = true
 showReadingTime = true
 rootFontSize = "120%"
 math = true
+enableDuckDuckGoSearchBox = true
 
 [params.commentEngine]
 code = """
