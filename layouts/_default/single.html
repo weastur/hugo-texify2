@@ -59,9 +59,7 @@
     <!-- disqus -->
     {{ template "_internal/disqus.html" . }}
     <!-- generic engine -->
-    {{ if .Site.Params.commentEngine.enable }}
-      {{ .Site.Params.commentEngine.code | safeHTML }}
-    {{ end }}
+    {{ .Site.Params.commentEngine.code | safeHTML }}
   </div>
   {{ end }}
 </main>

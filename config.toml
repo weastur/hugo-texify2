@@ -75,7 +75,6 @@ limit = 1000
 warning = "⚠️ It has been <i>%d</i> days since the last update, the content of the article may be outdated."
 
 [params.commentEngine]
-enable = false
 code = """
 """
 
