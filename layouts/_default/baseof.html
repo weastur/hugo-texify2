@@ -29,7 +29,7 @@
   {{ end }}
 
   <!-- math -->
-  {{ if cond (ne .Params.math nil) .Params.math .Site.Params.math.enable }}
+  {{ if .Site.Params.math.use }}
   {{ partial "math.html" . }}
   {{ end }}
 
