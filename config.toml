@@ -23,7 +23,7 @@ style = "tango"
 
 [[menu.main]]
 identifier = "post"
-name = "Post"
+name = "Posts"
 url = "/"
 weight = 1
 [[menu.main]]
