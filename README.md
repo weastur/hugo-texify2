@@ -1,4 +1,4 @@
-# TeXify
+# TeXify2
 
 [![Hugo](https://img.shields.io/badge/hugo-0.113-blue.svg)](https://gohugo.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -7,15 +7,25 @@
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/weastur/hugo-texify2/master.svg)](https://results.pre-commit.ci/latest/github/weastur/hugo-texify2/master)
 
 A minimal, latex-style hugo theme for personal blogging.
+The successor of the original [TeXify](https://github.com/queensferryme/hugo-theme-texify)
 
-![screenshot](https://raw.githubusercontent.com/queensferryme/hugo-theme-texify/master/images/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/weastur/hugo-texify2/master/images/screenshot.png)
 
 ## Features
 
+- Social sharing buttons
+- Any comment engine (giscus, remark42, hyvor, etc.)
+- Word Counter and Reading Time
+- [Meramid](https://mermaid.js.org) support
+- DuckDuckGo search
+- Configurable root font size
+- Buymeacoffee widget
+- Simplified config
 - [Disqus](https://disqus.com/) & Google Analytics included
 - Responsive design for mobile devices
-- Customize the site with your own stylesheets
-- Math equations powered by [KaTeX](https://katex.org/) or [MathJax](https://www.mathjax.org/)
+- Customize the site with your stylesheets
+- Math equations powered by [KaTeX](https://katex.org/)
+([MathJax](https://www.mathjax.org/) has been deleted)
 - Minimal CSS, No JavaScript, Blazing Fast!
 
 ## Usage
@@ -23,7 +33,8 @@ A minimal, latex-style hugo theme for personal blogging.
 Install with:
 
 ```bash
-git submodule add https://github.com/queensferryme/hugo-theme-texify.git themes/hugo-theme-texify
+git submodule add https://github.com/weastur/hugo-texify2.git themes/hugo-texify2
+echo "theme = 'hugo-texify2'" >> hugo.toml
 ```
 
 Upgrade with:
@@ -32,31 +43,35 @@ Upgrade with:
 git submodule foreach git pull origin master
 ```
 
-See [`config.toml`](https://github.com/queensferryme/hugo-theme-texify/blob/master/config.toml)
+See [`config.toml`](https://github.com/weastur/hugo-texify2/blob/master/config.toml)
 for an example configuration.
-
-Note that for Simplified Chinese users, it is recommended to use
-[Noto Serif SC](https://fonts.google.com/specimen/Noto+Serif+SC) via Google Fonts.
-You may put the following codes in your `static/css/custom.css`:
-
-```css
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;700&display=swap');
-
-#wrapper {
-    font-family: 'Latin Modern Roman', 'Times New Roman', 'Noto Serif SC', serif;
-}
-```
 
 ## Development
 
+Install `pre-commit`
+
 ```bash
+pre-commit install
 make dev
 ```
 
 ## Acknowledgement
 
-The design of this theme is inspired by the following softwares:
+The following software inspires the design of this theme:
 
 - <https://github.com/vincentdoerig/latex-css>
 - <https://github.com/7ma7X/HugoTeX>
 - <https://theme.typora.io/theme/Academic/>
+- <https://github.com/queensferryme/hugo-theme-texify>
+- <https://sharingbuttons.io>
+
+## Support
+
+If you want to support the development or say thanks, become a GitHub Sponsor or
+
+<a href="https://www.buymeacoffee.com/weastur" target="_blank">
+<img src="https://cdn.buymeacoffee.com/buttons/default-orange.png"
+    alt="Buy Me A Coffee"
+    height="41"
+    width="174">
+</a>
