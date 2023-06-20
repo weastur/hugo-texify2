@@ -1,5 +1,7 @@
 # TeXify
 
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/weastur/hugo-texify2/master.svg)](https://results.pre-commit.ci/latest/github/weastur/hugo-texify2/master)
+
 A minimal, latex-style hugo theme for personal blogging.
 
 ![screenshot](https://raw.githubusercontent.com/queensferryme/hugo-theme-texify/master/images/screenshot.png)
