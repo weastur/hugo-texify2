@@ -12,7 +12,6 @@ categories = [
     "themes",
     "syntax",
 ]
-keywords = ["test"]
 series = ["Themes Guide"]
 aliases = ["migrate-from-jekyl"]
 +++

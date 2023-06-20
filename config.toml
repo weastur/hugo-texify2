@@ -26,7 +26,7 @@ Follow me on <a class=link href=https://github.com/weastur target=_blank rel=noo
 <a class=link href=/index.xml>RSS</a> |
 <a class=link href=https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en target=_blank rel=noopener>CC BY-NC-SA 4.0</a>
 """
-keywords = ["hugo", "latex", "theme", "blog", "texify2", "weastur"]
+keywords = ["hugo", "latex", "theme", "blog", "texify", "texify2", "weastur"]
 customCSS = []
 customJS = []
 dateFormat = "January 2, 2006"
