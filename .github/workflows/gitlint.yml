@@ -1,0 +1,22 @@
+name: gitlint
+on: [push]
+jobs:
+  checks:
+    runs-on: "ubuntu-latest"
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.pull_request.head.sha }} # Checkout pull request HEAD commit instead of merge commit
+      - name: Setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip
+      - name: Install gitlint
+        run: pip install gitlint
+      - name: gitlint
+        run: gitlint --debug
+        continue-on-error: ${{ github.event_name	== 'pull_request' }}
