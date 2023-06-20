@@ -1,25 +1,65 @@
 +++
 title = "About"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
+description = "A minimal, latex-style hugo theme for personal blogging"
+date = "2023-06-20"
+aliases = ["about-us", "about-texify2", "contact"]
+author = "weastur"
 +++
+A minimal, latex-style hugo theme for personal blogging.
+The successor of the original [TeXify](https://github.com/queensferryme/hugo-theme-texify)
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+<iframe src="https://ghbtns.com/github-btn.html?user=weastur&repo=hugo-texify2&type=star&count=false&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
 
-Hugo makes use of a variety of open source projects including:
+## Features
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+- Social sharing buttons
+- Any comment engine (giscus, remark42, hyvor, etc.)
+- Word Counter and Reading Time
+- [Meramid](https://mermaid.js.org) support
+- DuckDuckGo search
+- Configurable root font size
+- Buymeacoffee widget
+- Simplified config
+- [Disqus](https://disqus.com/) & Google Analytics included
+- Responsive design for mobile devices
+- Customize the site with your stylesheets
+- Math equations powered by [KaTeX](https://katex.org/)
+([MathJax](https://www.mathjax.org/) has been deleted)
+- Minimal CSS, No JavaScript, Blazing Fast!
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+## Usage
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+Install with:
 
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+```
+git submodule add https://github.com/weastur/hugo-texify2.git themes/hugo-texify2
+echo "theme = 'hugo-texify2'" >> hugo.toml
+```
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+Upgrade with:
+
+```
+git submodule foreach git pull origin master
+```
+
+See [`config.toml`](https://github.com/weastur/hugo-texify2/blob/master/config.toml)
+for an example configuration.
+
+## Development
+
+Install `pre-commit`
+
+```bash
+pre-commit install
+make dev
+```
+
+## Acknowledgement
+
+The following software inspires the design of this theme:
+
+- <https://github.com/vincentdoerig/latex-css>
+- <https://github.com/7ma7X/HugoTeX>
+- <https://theme.typora.io/theme/Academic/>
+- <https://github.com/queensferryme/hugo-theme-texify>
+- <https://sharingbuttons.io>

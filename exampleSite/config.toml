@@ -8,7 +8,14 @@ ganguageCode = "en"
 paginate = 5
 rssLimit = 10
 theme = "hugo-texify2"
-title = "TeXify2"
+title = "TeXify2 - hugo theme"
+
+[markup]
+defaultMarkdownHandler = "goldmark"
+[markup.goldmark.renderer]
+unsafe= true
+[markup.highlight]
+style = "tango"
 
 [author]
 email = "me@weastur.com"

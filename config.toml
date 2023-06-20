@@ -1,10 +1,3 @@
-[markup]
-defaultMarkdownHandler = "goldmark"
-[markup.goldmark.renderer]
-unsafe = true
-[markup.highlight]
-style = "tango"
-
 [[menu.main]]
 identifier = "post"
 name = "Posts"
@@ -33,14 +26,13 @@ Follow me on <a class=link href=https://github.com/weastur target=_blank rel=noo
 <a class=link href=/index.xml>RSS</a> |
 <a class=link href=https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en target=_blank rel=noopener>CC BY-NC-SA 4.0</a>
 """
-keywords = ["hugo", "latex", "theme", "blog"]
+keywords = ["hugo", "latex", "theme", "blog", "texify2", "weastur"]
 customCSS = []
 customJS = []
 dateFormat = "January 2, 2006"
-fullTextRSS = true
 emphasisWithDots = true
 since = "2023"
-toc = true
+toc = false
 showWordCount = true
 showReadingTime = true
 rootFontSize = "120%"
