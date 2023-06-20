@@ -1,1 +1,23 @@
-../config.toml
+baseURL = "https://texify2.io"
+disqusShortname = ""
+enableGitInfo = true
+enableRobotsTXT = true
+googleAnalytics = ""
+hasCJKLanguage = true
+ganguageCode = "en"
+paginate = 5
+rssLimit = 10
+theme = "hugo-texify2"
+title = "TeXify2"
+
+[author]
+email = "me@weastur.com"
+name = "Pavel Sapezhka"
+
+[params.commentEngine]
+code = """
+"""
+
+[params.buymeacoffee]
+code = """
+"""
