@@ -19,6 +19,7 @@ repos:
         exclude: layouts/_default/rss.xml
       - id: check-yaml
       - id: detect-aws-credentials
+        entry: detect-aws-credentials --allow-missing-credentials
       - id: destroyed-symlinks
       - id: forbid-submodules
   - repo: https://github.com/igorshubovych/markdownlint-cli
