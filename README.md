@@ -13,20 +13,22 @@ The successor of the original [TeXify](https://github.com/queensferryme/hugo-the
 
 ## Features
 
-- Social sharing buttons
-- Any comment engine (giscus, remark42, hyvor, etc.)
-- Word Counter and Reading Time
-- [Meramid](https://mermaid.js.org) support
-- DuckDuckGo search
-- Configurable root font size
-- Buymeacoffee widget
-- Simplified config
+- **Social sharing buttons**
+- **Any comment engine (giscus, remark42, hyvor, etc.)**
+- **Word Counter and Reading Time**
+- **[Meramid](https://mermaid.js.org) support**
+- **DuckDuckGo search**
+- **Configurable root font size**
+- **Buymeacoffee widget**
+- **Simplified config**
 - [Disqus](https://disqus.com/) & Google Analytics included
 - Responsive design for mobile devices
 - Customize the site with your stylesheets
 - Math equations powered by [KaTeX](https://katex.org/)
 ([MathJax](https://www.mathjax.org/) has been deleted)
 - Minimal CSS, No JavaScript, Blazing Fast!
+
+\* Diff with the origianl texify is bold
 
 ## Usage
 
