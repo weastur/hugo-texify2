@@ -1,8 +1,11 @@
 name: gitlint
-on: [pull_request]
+on: [push, pull_request]
 jobs:
   checks:
     runs-on: "ubuntu-latest"
+    if: >
+      github.event_name == 'push' ||
+      github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name != github.repository
     steps:
       - uses: actions/checkout@v3
         with:
@@ -17,5 +20,9 @@ jobs:
           key: ${{ runner.os }}-pip
       - name: Install gitlint
         run: pip install gitlint
-      - name: gitlint
+      - name: gitlint for PR
         run: gitlint --debug --commits ${{ github.event.pull_request.base.sha }}..${{ github.event.pull_request.head.sha }}
+        if: github.event_name == 'pull_request'
+      - name: gitlint for push event
+        run: gitlint --debug --commits ${{ github.event.before }}..${{ github.event.after }}
+        if: github.event_name == 'push'
