@@ -12,14 +12,15 @@ The successor of the original [TeXify](https://github.com/queensferryme/hugo-the
 
 ## Features
 
-- Social sharing buttons
-- Any comment engine (giscus, remark42, hyvor, etc.)
-- Word Counter and Reading Time
-- [Meramid](https://mermaid.js.org) support
-- DuckDuckGo search
-- Configurable root font size
-- Buymeacoffee widget
-- Simplified config
+- **Social sharing buttons**
+- **Any comment engine (giscus, remark42, hyvor, etc.)**
+- **Word Counter and Reading Time**
+- **[Meramid](https://mermaid.js.org) support**
+- **DuckDuckGo search**
+- **Configurable root font size**
+- **Buymeacoffee widget**
+- **Simplified config**
+- **Hugo modules support**
 - [Disqus](https://disqus.com/) & Google Analytics included
 - Responsive design for mobile devices
 - Customize the site with your stylesheets
@@ -27,19 +28,45 @@ The successor of the original [TeXify](https://github.com/queensferryme/hugo-the
 ([MathJax](https://www.mathjax.org/) has been deleted)
 - Minimal CSS, No JavaScript, Blazing Fast!
 
+\* Diff with the origianl texify is **bold**
+
 ## Usage
 
-Install with:
+## Install as git submodule
 
-```
+Install:
+
+```bash
 git submodule add https://github.com/weastur/hugo-texify2.git themes/hugo-texify2
 echo "theme = 'hugo-texify2'" >> hugo.toml
 ```
 
-Upgrade with:
+Upgrade:
 
-```
+```bash
 git submodule foreach git pull origin master
+```
+
+## Install as hugo module
+
+Initialize hugo modules, if not done yet:
+
+```bash
+hugo mod init github.com/<username>/<projectName>
+```
+
+add `[module]` section to your `config.toml`:
+
+```bash
+[module]
+[[module.imports]]
+  path = 'github.com/weastur/hugo-texify2'
+```
+
+load/update theme module
+
+```bash
+hugo mod get -u github.com/weastur/hugo-texify2
 ```
 
 See [`config.toml`](https://github.com/weastur/hugo-texify2/blob/master/config.toml)

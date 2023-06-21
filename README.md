@@ -21,6 +21,7 @@ The successor of the original [TeXify](https://github.com/queensferryme/hugo-the
 - **Configurable root font size**
 - **Buymeacoffee widget**
 - **Simplified config**
+- **Hugo modules support**
 - [Disqus](https://disqus.com/) & Google Analytics included
 - Responsive design for mobile devices
 - Customize the site with your stylesheets
@@ -28,21 +29,45 @@ The successor of the original [TeXify](https://github.com/queensferryme/hugo-the
 ([MathJax](https://www.mathjax.org/) has been deleted)
 - Minimal CSS, No JavaScript, Blazing Fast!
 
-\* Diff with the origianl texify is bold
+\* Diff with the origianl texify is **bold**
 
 ## Usage
 
-Install with:
+## Install as git submodule
+
+Install:
 
 ```bash
 git submodule add https://github.com/weastur/hugo-texify2.git themes/hugo-texify2
 echo "theme = 'hugo-texify2'" >> hugo.toml
 ```
 
-Upgrade with:
+Upgrade:
 
 ```bash
 git submodule foreach git pull origin master
+```
+
+## Install as hugo module
+
+Initialize hugo modules, if not done yet:
+
+```bash
+hugo mod init github.com/<username>/<projectName>
+```
+
+add `[module]` section to your `config.toml`:
+
+```bash
+[module]
+[[module.imports]]
+  path = 'github.com/weastur/hugo-texify2'
+```
+
+load/update theme module
+
+```bash
+hugo mod get -u github.com/weastur/hugo-texify2
 ```
 
 See [`config.toml`](https://github.com/weastur/hugo-texify2/blob/master/config.toml)
