@@ -1,6 +1,6 @@
 [module]
   [module.hugoVersion]
-    min = "0.60.0"
+    min = "0.113.0"
 
 [[menu.main]]
 identifier = "post"
