@@ -4,6 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![Build with Hugo](https://github.com/weastur/hugo-texify2/workflows/Build%20with%20Hugo/badge.svg)
 ![gitlint](https://github.com/weastur/hugo-texify2/workflows/gitlint/badge.svg)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/weastur/hugo-texify2/master.svg)](https://results.pre-commit.ci/latest/github/weastur/hugo-texify2/master)
 
 A minimal, latex-style hugo theme for personal blogging.
 The successor of the original [TeXify](https://github.com/queensferryme/hugo-theme-texify)
