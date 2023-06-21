@@ -1,3 +1,7 @@
+[module]
+  [module.hugoVersion]
+    min = "0.60.0"
+
 [[menu.main]]
 identifier = "post"
 name = "Posts"
