@@ -21,9 +21,6 @@ style = "tango"
 email = "me@weastur.com"
 name = "Pavel Sapezhka"
 
-[params]
-headline="TeXify2"
-
 [params.commentEngine]
 code = """
 <script src="https://giscus.app/client.js"

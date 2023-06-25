@@ -22,7 +22,8 @@ weight = 3
 tags = "tags"
 
 [params]
-description = "An example site for hugo theme TeXify2"
+headline="TeXify2"
+description = "TeXify2 - a minimal, latex-style hugo theme for personal blogging"
 favicon = "favicon.ico"
 footnote = """
 Follow me on <a class=link href=https://github.com/weastur target=_blank rel=noopener>GitHub</a>,
