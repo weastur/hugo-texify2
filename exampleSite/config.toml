@@ -8,7 +8,7 @@ ganguageCode = "en"
 paginate = 5
 rssLimit = 10
 theme = "hugo-texify2"
-title = "TeXify2 - hugo theme"
+title = "TeXify2 - hugo theme | weastur"
 
 [markup]
 defaultMarkdownHandler = "goldmark"
@@ -20,6 +20,9 @@ style = "tango"
 [author]
 email = "me@weastur.com"
 name = "Pavel Sapezhka"
+
+[params]
+headline="TeXify2"
 
 [params.commentEngine]
 code = """

@@ -3,7 +3,7 @@
 {{ $domainWithoutWWW := replace $domain "www." "" }}
 <header id="header">
   <h1>
-    <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+    <a href="{{ .Site.BaseURL }}">{{ .Site.Params.headline | default .Site.Title }}</a>
   </h1>
 
   <nav>
