@@ -16,7 +16,7 @@ The successor of the original [TeXify](https://github.com/queensferryme/hugo-the
 - **Social sharing buttons**
 - **Any comment engine (giscus, remark42, hyvor, etc.)**
 - **Word Counter and Reading Time**
-- **[Meramid](https://mermaid.js.org) support**
+- **[Mermaid](https://mermaid.js.org) support**
 - **DuckDuckGo search**
 - **Configurable root font size**
 - **Buymeacoffee widget**
