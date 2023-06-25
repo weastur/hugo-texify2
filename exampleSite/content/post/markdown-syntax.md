@@ -135,6 +135,15 @@ Tables aren't part of the core Markdown spec, but Hugo supports them out-of-the-
   * Milk
   * Cheese
 
+#### Numbered list
+
+1. Item 1
+   1. Sub-item 1.1
+   2. Sub-item 1.2
+   3. Sub-item 1.3
+2. Item 2
+3. Item 3
+
 ## Other Elements — abbr, sub, sup, kbd, mark
 
 <abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
