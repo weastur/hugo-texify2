@@ -22,8 +22,9 @@ weight = 3
 tags = "tags"
 
 [params]
-headline="TeXify2"
+title="TeXify2"
 description = "TeXify2 - a minimal, latex-style hugo theme for personal blogging"
+images = ['images/logo.jpg']
 footnote = """
 Follow me on <a class=link href=https://github.com/weastur target=_blank rel=noopener>GitHub</a>,
 <a class=link href=https://www.linkedin.com/in/weastur/ target=_blank rel=noopener>LinkedIn</a> or
