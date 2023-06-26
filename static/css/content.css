@@ -133,3 +133,99 @@
 .content ol, .content ul {
     margin-left: 1.5rem;
 }
+
+.content.numbered-subtitles {
+    counter-reset: section-h2;
+}
+
+.content.numbered-subtitles h2 {
+    counter-reset: section-h3;
+}
+
+.content.numbered-subtitles h2:before {
+    counter-increment: section-h2;
+    content: counter(section-h2) " ";
+}
+
+.content.numbered-subtitles h3 {
+    counter-reset: section-h4;
+}
+
+.content.numbered-subtitles h3:before {
+    counter-increment: section-h3;
+    content: counter(section-h2) "." counter(section-h3) " ";
+}
+
+.content.numbered-subtitles h4 {
+    counter-reset: section-h5;
+}
+
+.content.numbered-subtitles h4:before {
+    counter-increment: section-h4;
+    content: counter(section-h2) "." counter(section-h3) "." counter(section-h4) " ";
+}
+
+.content.numbered-subtitles h5 {
+    counter-reset: section-h6;
+}
+
+.content.numbered-subtitles h5:before {
+    counter-increment: section-h5;
+    content: counter(section-h2) "." counter(section-h3) "." counter(section-h4) "." counter(section-h5) " ";
+}
+
+.content.numbered-subtitles h6:before {
+    counter-increment: section-h6;
+    content: counter(section-h2) "." counter(section-h3) "." counter(section-h4) "." counter(section-h5) "." counter(section-h6) " ";
+}
+
+
+
+
+
+
+
+.toc.numbered-subtitles {
+    counter-reset: ul-h2;
+}
+
+.toc.numbered-subtitles li {
+    counter-reset: ul-h3;
+}
+
+.toc.numbered-subtitles li:before {
+    counter-increment: ul-h2;
+    content: counter(ul-h2) " ";
+}
+
+.toc.numbered-subtitles li li {
+    counter-reset: ul-h4;
+}
+
+.toc.numbered-subtitles li li:before {
+    counter-increment: ul-h3;
+    content: counter(ul-h2) "." counter(ul-h3) " ";
+}
+
+.toc.numbered-subtitles li li li {
+    counter-reset: ul-h5;
+}
+
+.toc.numbered-subtitles li li li:before {
+    counter-increment: ul-h4;
+    content: counter(ul-h2) "." counter(ul-h3) "." counter(ul-h4) " ";
+}
+
+.toc.numbered-subtitles li li li li {
+    counter-reset: ul-h6;
+}
+
+.toc.numbered-subtitles li li li li:before {
+    counter-increment: ul-h5;
+    content: counter(ul-h2) "." counter(ul-h3) "." counter(ul-h4) "." counter(ul-h5) " ";
+}
+
+.toc.numbered-subtitles li li li li li:before {
+    counter-increment: ul-h6;
+    content: counter(ul-h2) "." counter(ul-h3) "." counter(ul-h4) "." counter(ul-h5) "." counter(ul-h6) " ";
+}

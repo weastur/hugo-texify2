@@ -37,7 +37,7 @@ Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-manageme
 
 ---
 
-## Meramid
+## Mermaid
 
 ```mermaid
 sequenceDiagram

@@ -43,6 +43,7 @@ showReadingTime = true
 rootFontSize = "120%"
 math = true
 enableDuckDuckGoSearchBox = true
+numberedSubtitles = false
 
 [params.commentEngine]
 code = """

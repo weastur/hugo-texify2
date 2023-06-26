@@ -20,6 +20,7 @@ The successor of the original [TeXify](https://github.com/queensferryme/hugo-the
 - **DuckDuckGo search**
 - **Configurable root font size**
 - **Buymeacoffee widget**
+- **Auto numbered subtitles**
 - **Simplified config**
 - **Hugo modules support**
 - [Disqus](https://disqus.com/) & Google Analytics included
@@ -31,9 +32,15 @@ The successor of the original [TeXify](https://github.com/queensferryme/hugo-the
 
 \* Diff with the origianl texify is **bold**
 
+Visit the [demo site](https://texify2.io).
+
+**Note:** All the features are enabled on the demo site,
+but you can turn them off on your own project.
+Check both `config.toml` of the theme and of the exampleSite.
+
 ## Usage
 
-## Install as git submodule
+### Install as git submodule
 
 Install:
 
@@ -48,7 +55,7 @@ Upgrade:
 git submodule foreach git pull origin master
 ```
 
-## Install as hugo module
+### Install as hugo module
 
 Initialize hugo modules, if not done yet:
 
