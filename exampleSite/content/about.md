@@ -19,6 +19,7 @@ The successor of the original [TeXify](https://github.com/queensferryme/hugo-the
 - **DuckDuckGo search**
 - **Configurable root font size**
 - **Buymeacoffee widget**
+- **Auto numbered subtitles**
 - **Simplified config**
 - **Hugo modules support**
 - [Disqus](https://disqus.com/) & Google Analytics included
@@ -32,7 +33,7 @@ The successor of the original [TeXify](https://github.com/queensferryme/hugo-the
 
 ## Usage
 
-## Install as git submodule
+### Install as git submodule
 
 Install:
 
@@ -47,7 +48,7 @@ Upgrade:
 git submodule foreach git pull origin master
 ```
 
-## Install as hugo module
+### Install as hugo module
 
 Initialize hugo modules, if not done yet:
 

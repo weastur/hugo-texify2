@@ -6,9 +6,10 @@
 {{ define "main" }}
 <main id="main" class="post">
   {{ if ne .Section "post"}}
-  <article class="content">
+  <article class="content {{ if .Site.Params.numberedSubtitles }}numbered-subtitles{{ end }}">
     {{ .Content }}
   </article>
+
   {{ else }}
   <h1>{{ .Title }}</h1>
   {{ if ne .Params.tags nil }}
@@ -24,11 +25,11 @@
     <summary>
       <b>Table of Contents</b>
     </summary>
-    <div class="toc">{{ .TableOfContents }}</div>
+    <div class="toc {{ if .Site.Params.numberedSubtitles }}numbered-subtitles{{ end }}">{{ .TableOfContents }}</div>
   </details>
   {{ end }}
   {{ end }}
-  <article class="content">
+  <article class="content {{ if .Site.Params.numberedSubtitles }}numbered-subtitles{{ end }}">
     {{ if .Site.Params.emphasisWithDots }}
     {{ .Content | replaceRE "<strong>(\\p{Han}+?)</strong>" "<strong class=chinese>$1</strong>" | safeHTML }}
     {{ else }}

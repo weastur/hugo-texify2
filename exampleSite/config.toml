@@ -16,10 +16,18 @@ defaultMarkdownHandler = "goldmark"
 unsafe= true
 [markup.highlight]
 style = "tango"
+[markup.tableOfContents]
+  endLevel = 6
+  ordered = false
+  startLevel = 2
 
 [author]
 email = "me@weastur.com"
 name = "Pavel Sapezhka"
+
+[params]
+numberedSubtitles = true
+toc = true
 
 [params.commentEngine]
 code = """
