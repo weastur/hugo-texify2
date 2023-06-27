@@ -1,8 +1,13 @@
 [general]
 ignore=body-is-missing
+regex-style-search=True
 
 [title-max-length]
 line-length=72
 
 [title-min-length]
 min-length=10
+
+[ignore-by-author-name]
+regex=^pre-commit-ci\[bot\]
+ignore=all
