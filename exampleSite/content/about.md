@@ -22,6 +22,7 @@ The successor of the original [TeXify](https://github.com/queensferryme/hugo-the
 - **Auto numbered subtitles**
 - **Simplified config**
 - **Hugo modules support**
+- **Tested on Chrome, Safari, Edge, Firefox**
 - [Disqus](https://disqus.com/) & Google Analytics included
 - Responsive design for mobile devices
 - Customize the site with your stylesheets
