@@ -1,6 +1,9 @@
 ---
 name: Build with Hugo
-on: [push, pull_request]
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
