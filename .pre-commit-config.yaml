@@ -31,6 +31,6 @@ repos:
     hooks:
       - id: gitlint
   - repo: https://github.com/adrienverge/yamllint
-    rev: v1.26.3
+    rev: v1.32.0
     hooks:
       - id: yamllint
