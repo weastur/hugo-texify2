@@ -11,7 +11,7 @@ jobs:
       github.event_name == 'pull_request' ||
       (github.event.before != '0000000000000000000000000000000000000000' && !github.event.forced)
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - name: Setup python
