@@ -31,13 +31,13 @@ The successor of the original [TeXify](https://github.com/queensferryme/hugo-the
 ([MathJax](https://www.mathjax.org/) has been deleted)
 - Minimal CSS, No JavaScript, Blazing Fast!
 
-\* Diff with the origianl texify is **bold**
+\* Diff with the original texify is **bold**
 
 Visit the [demo site](https://texify2.io).
 
 **Note:** All the features are enabled on the demo site,
 but you can turn them off on your own project.
-Check both `config.toml` of the theme and of the exampleSite.
+Check both `hugo.toml` of the theme and of the exampleSite.
 
 ## Usage
 
@@ -64,7 +64,7 @@ Initialize hugo modules, if not done yet:
 hugo mod init github.com/<username>/<projectName>
 ```
 
-add `[module]` section to your `config.toml`:
+add `[module]` section to your `hugo.toml`:
 
 ```bash
 [module]
@@ -78,7 +78,7 @@ load/update theme module
 hugo mod get -u github.com/weastur/hugo-texify2
 ```
 
-See [`config.toml`](https://github.com/weastur/hugo-texify2/blob/master/config.toml)
+See [`hugo.toml`](https://github.com/weastur/hugo-texify2/blob/master/hugo.toml)
 for an example configuration.
 
 ## Development
