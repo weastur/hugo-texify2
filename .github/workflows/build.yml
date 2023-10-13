@@ -23,4 +23,4 @@ jobs:
           hugo-version: ${{ matrix.hugo-version }}
           extended: true
       - name: Run
-        run: hugo --config=exampleSite/config.toml --contentDir=exampleSite/content --themesDir=..
+        run: hugo --config=exampleSite/hugo.toml --contentDir=exampleSite/content --themesDir=..
