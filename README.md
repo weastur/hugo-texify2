@@ -99,4 +99,3 @@ The following software inspires the design of this theme:
 - <https://theme.typora.io/theme/Academic/>
 - <https://github.com/queensferryme/hugo-theme-texify>
 - <https://sharingbuttons.io>
-
