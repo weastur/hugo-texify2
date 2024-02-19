@@ -23,7 +23,7 @@ repos:
       - id: destroyed-symlinks
       - id: forbid-submodules
   - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.37.0
+    rev: v0.39.0
     hooks:
       - id: markdownlint
   - repo: https://github.com/jorisroovers/gitlint
@@ -31,6 +31,6 @@ repos:
     hooks:
       - id: gitlint
   - repo: https://github.com/adrienverge/yamllint
-    rev: v1.33.0
+    rev: v1.35.1
     hooks:
       - id: yamllint
