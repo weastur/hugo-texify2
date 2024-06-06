@@ -27,8 +27,7 @@ description = "TeXify2 - a minimal, latex-style hugo theme for personal blogging
 images = ['images/logo.jpg']
 footnote = """
 Follow me on <a class=link href=https://github.com/weastur target=_blank rel=noopener>GitHub</a>,
-<a class=link href=https://www.linkedin.com/in/weastur/ target=_blank rel=noopener>LinkedIn</a> or
-<a class=link href=/index.xml>RSS</a> |
+<a class=link href=https://www.linkedin.com/in/weastur/ target=_blank rel=noopener>LinkedIn</a> |
 <a class=link href=https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en target=_blank rel=noopener>CC BY-NC-SA 4.0</a>
 """
 keywords = ["hugo", "latex", "theme", "blog", "texify", "texify2", "weastur"]
@@ -36,7 +35,7 @@ customCSS = []
 customJS = []
 dateFormat = "January 2, 2006"
 emphasisWithDots = true
-since = "2023"
+since = "2024"
 toc = false
 showWordCount = true
 showReadingTime = true

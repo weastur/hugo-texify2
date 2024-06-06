@@ -1,41 +1,41 @@
 #main > .post + .post {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 #main > .post > h2 {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 #main > .post > h2 > div {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 #main > .post > h2 > div > time {
-    font-size: 1rem;
-    font-weight: normal;
-    justify-self: flex-end;
+  font-size: 1rem;
+  font-weight: normal;
+  justify-self: flex-end;
 }
 
 #main > .post > h2 > div > span {
-    font-size: 1rem;
-    font-weight: normal;
-    color: gray;
-    margin-left: 1rem;
+  font-size: 1rem;
+  font-weight: normal;
+  color: gray;
+  margin-left: 1rem;
 }
 
 #main > .post > .content {
-    padding-top: 1rem;
+  padding-top: 1rem;
 }
 
 @media screen and (min-width: 768px) {
-    #main > .post > div {
-        margin-left: 2rem;
-    }
+  #main > .post > div {
+    margin-left: 2rem;
+  }
 }
